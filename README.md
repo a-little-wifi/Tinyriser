@@ -8,6 +8,8 @@ The x8 link comes from the CPU and was meant for GPU equipped models, while the 
 
 Using this riser, you can install a low profile PCIe card just as you can with the stock risers, and add an extra M.2 NVMe SSD in addition to the onboard ones. The SSD is tucked away near the front of the machine, plugged into a right angle M-key M.2 slot that holds the SSD firmly in place. Due to an unfortunate non-removable standoff placement on the motherboard, only 2230, 2242 and 2260 size SSDs fit comfortably. It is possible to get a 2280 drive to fit if you try hard enough, but the fit will be suboptimal.
 
+Doesn't require any modifications to the motherboard, just works plug and play (no bifurcation/lane reversal).
+
 I've successfully tested v1 of this riser on my own M720q where it works 100% perfectly with x1, x4, x8 and x16 cards, and it will work just as well on the other machines that share this motherboard, the M920q, M920x and P330 Tiny.
 
 Note that the M.2 slot only supports PCIe NVMe M-key or B+M-key drives, not SATA ones.
