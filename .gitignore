@@ -35,3 +35,6 @@ fp-info-cache
 
 # weird log file
 out.log
+
+# round tracks plugin stuff lol
+*.round-tracks-config
