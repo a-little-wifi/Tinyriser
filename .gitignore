@@ -32,3 +32,6 @@ fp-info-cache
 # lock files 
 *.kicad_pcb.lck
 *.kicad_sch.lck
+
+# weird log file
+out.log

@@ -1,5 +1,5 @@
 # TinyRiser
-Cooler/cuter riser for Lenovo 8th/9th gen Tiny PCs
+Cooler/cuter riser for Lenovo 8th/9th gen Tiny5 PCs
 
 Exposes the x8 and x4 PCIe links in the riser slot, in the form of a PCIe x16 slot and an m.2 slot.
 
@@ -10,7 +10,7 @@ Using this riser, you can install a low profile PCIe card just as you can with t
 
 I've successfully tested v1 of this riser on my own M720q where it works 100% perfectly with x1, x4, x8 and x16 cards, and it will work just as well on the other machines that share this motherboard, the M920q, M920x and P330 Tiny.
 
-Note that the M.2 slot only supports PCIe NVMe M-key or B+M-key drives, not SATA based ones.
+Note that the M.2 slot only supports PCIe NVMe M-key or B+M-key drives, not SATA ones.
 
 
 <img src='Tinyriser-v2-front.png' width=80%/>
@@ -27,3 +27,6 @@ Compatible with M720q, M920q, M920x and P330 Tiny, as well as the NEC rebranded 
 **Don't stick it in an M910x or P320 Tiny, it will physically fit but the pinout is not compatible.**
 
 Currently in version 2, design completed before I started using git
+
+screwpost: https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html  
+alternative right-angle m-key slot (different footprint): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
