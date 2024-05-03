@@ -97,10 +97,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "zones_intersect|141650000|138600000|65721ada-9cbf-4e32-908d-90fa3e2cb628|ce2e3f92-1e05-49a5-ad98-78efad25949e",
-        "zones_intersect|141650000|139600000|65721ada-9cbf-4e32-908d-90fa3e2cb628|ce2e3f92-1e05-49a5-ad98-78efad25949e"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
