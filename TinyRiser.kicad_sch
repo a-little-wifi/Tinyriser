@@ -8633,6 +8633,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 54.61) (xy 217.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06711f57-2921-4a52-bb57-50621985aaba")
+	)
+	(wire
+		(pts
 			(xy 190.5 172.72) (xy 190.5 177.8)
 		)
 		(stroke
@@ -8860,6 +8870,16 @@
 			(type default)
 		)
 		(uuid "16cc9074-967d-4589-9395-bd4a6a724a37")
+	)
+	(wire
+		(pts
+			(xy 229.87 52.07) (xy 217.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17428241-b282-4f44-977f-3dee99f8c42d")
 	)
 	(wire
 		(pts
@@ -10193,6 +10213,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 54.61) (xy 201.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839ebd27-ddc4-4bf6-89f2-fb00d8fe5b22")
+	)
+	(wire
+		(pts
 			(xy 177.8 223.52) (xy 177.8 228.6)
 		)
 		(stroke
@@ -10913,6 +10943,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 53.34) (xy 229.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c153955d-3435-4d8b-8a1c-c3125397a32a")
+	)
+	(wire
+		(pts
 			(xy 219.71 57.15) (xy 217.17 57.15)
 		)
 		(stroke
@@ -10950,6 +10990,16 @@
 			(type default)
 		)
 		(uuid "c2ae41ee-c007-4caa-9c1d-42f68320f681")
+	)
+	(wire
+		(pts
+			(xy 201.93 52.07) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fcf512-2136-43f9-9131-9984fa4b9f6a")
 	)
 	(wire
 		(pts
@@ -12019,7 +12069,7 @@
 	)
 	(global_label "+12V_fan"
 		(shape input)
-		(at 201.93 57.15 180)
+		(at 201.93 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12029,7 +12079,7 @@
 		)
 		(uuid "175d9810-6ae5-49c3-91ce-1ad43e113142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.8735 57.15 0)
+			(at 189.8735 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12897,6 +12947,28 @@
 			)
 		)
 	)
+	(global_label "PWM_fan"
+		(shape input)
+		(at 217.17 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68bb86bb-b527-4d54-83ca-a03fb2c5b09f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.0207 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SMBCLK"
 		(shape input)
 		(at 313.69 69.85 90)
@@ -12915,6 +12987,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_fan"
+		(shape input)
+		(at 201.93 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c919825-e8e7-46e9-a16f-b8aea24f8150")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.7807 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13108,6 +13202,28 @@
 		(uuid "78871ba0-1f2c-4ca1-8498-404f6943c3d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.7276 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Taco_fan"
+		(shape input)
+		(at 201.93 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a2eb43d-473d-43d9-b29b-80459c02db4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5993 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,6 +13871,28 @@
 			)
 		)
 	)
+	(global_label "Taco_fan"
+		(shape input)
+		(at 217.17 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa2a1e90-b946-4c25-82c9-369b64e6ccad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.8393 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PCIe_PCH_Rx2+"
 		(shape input)
 		(at 154.94 228.6 270)
@@ -13927,6 +14065,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 219.71 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "baca448e-747a-4f8f-b489-36c3d521fd6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.7752 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14680,6 +14840,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 229.87 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b83cdb5-e3b9-44fd-add3-a16849a152dc")
+		(property "Reference" "#PWR09"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78a3f908-6d7c-4241-ba24-09a160dd039b")
+		)
+		(instances
+			(project "TinyRiser"
+				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 170.18 43.18 270)
 		(unit 1)
@@ -15294,6 +15520,75 @@
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "626efc17-b4e3-4fcf-a9bb-e096d44e48fb")
+		(property "Reference" "R6"
+			(at 210.185 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 210.82 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869502c1-58a3-46dc-8317-dde6a30b5be3")
+		)
+		(pin "2"
+			(uuid "e46ba50c-3917-4857-8e94-2eeef906e39b")
+		)
+		(instances
+			(project "TinyRiser"
+				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
+					(reference "R6")
 					(unit 1)
 				)
 			)
