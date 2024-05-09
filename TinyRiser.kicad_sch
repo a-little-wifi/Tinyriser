@@ -8158,6 +8158,12 @@
 		(uuid "6528725a-d0ca-4097-8893-92f1972e7d11")
 	)
 	(junction
+		(at 203.2 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69a267f3-9891-4f97-8d0d-f66ae2790240")
+	)
+	(junction
 		(at 130.81 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8192,6 +8198,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e777336-bcfb-4450-bd50-01d43f004323")
+	)
+	(junction
+		(at 218.44 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fce8fdf-778e-4436-968d-232ed3e0c4f6")
 	)
 	(junction
 		(at 293.37 71.12)
@@ -9143,16 +9155,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 57.15) (xy 201.93 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c5e68b-74b1-4710-9874-fe49c181ce0a")
-	)
-	(wire
-		(pts
 			(xy 137.16 172.72) (xy 137.16 177.8)
 		)
 		(stroke
@@ -9330,6 +9332,16 @@
 			(type default)
 		)
 		(uuid "3b4979df-01ab-4546-867b-26090c023edc")
+	)
+	(wire
+		(pts
+			(xy 218.44 63.5) (xy 218.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b57168f-e720-4a4b-afe6-1642295f866a")
 	)
 	(wire
 		(pts
@@ -9670,6 +9682,16 @@
 			(type default)
 		)
 		(uuid "5d0cfbf2-869e-40ff-be0b-7c38faa26ad6")
+	)
+	(wire
+		(pts
+			(xy 207.01 63.5) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e876c59-5d48-4c11-82aa-667afb48a2a2")
 	)
 	(wire
 		(pts
@@ -10043,6 +10065,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 52.07) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca9afca-6049-4938-982a-668163603827")
+	)
+	(wire
+		(pts
 			(xy 247.65 69.85) (xy 247.65 74.93)
 		)
 		(stroke
@@ -10310,6 +10342,16 @@
 			(type default)
 		)
 		(uuid "90d6987f-5037-45be-80e7-5a3654d7777d")
+	)
+	(wire
+		(pts
+			(xy 218.44 57.15) (xy 217.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fca4f9-70e1-43da-99c9-df7f14f2f665")
 	)
 	(wire
 		(pts
@@ -10923,6 +10965,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 63.5) (xy 218.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddd7519-f9e7-4144-97cb-3e75ef73149b")
+	)
+	(wire
+		(pts
 			(xy 82.55 36.83) (xy 82.55 44.45)
 		)
 		(stroke
@@ -10953,7 +11005,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 57.15) (xy 217.17 57.15)
+			(xy 219.71 57.15) (xy 218.44 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10993,7 +11045,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 204.47 52.07)
+			(xy 201.93 52.07) (xy 203.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -11250,6 +11302,16 @@
 			(type default)
 		)
 		(uuid "d7f1c7be-1ddc-4415-b365-f1cc960398f8")
+	)
+	(wire
+		(pts
+			(xy 201.93 57.15) (xy 204.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87238db-f9f6-4e3e-b95f-402d928930d0")
 	)
 	(wire
 		(pts
@@ -11560,6 +11622,16 @@
 			(type default)
 		)
 		(uuid "f13c1fdb-4caa-42b7-8bcf-73aa9e20affb")
+	)
+	(wire
+		(pts
+			(xy 203.2 63.5) (xy 203.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1fed735-2928-4726-8351-15f121e5fbff")
 	)
 	(wire
 		(pts
@@ -15390,7 +15462,7 @@
 		(dnp no)
 		(uuid "44604dc9-3d33-4659-a4cc-7cef5a2ae818")
 		(property "Reference" "J4"
-			(at 210.82 63.5 0)
+			(at 210.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15398,7 +15470,7 @@
 			)
 		)
 		(property "Value" "fancontrol_header"
-			(at 210.82 60.96 0)
+			(at 210.82 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15527,7 +15599,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 67.31 90)
+		(at 210.82 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15535,7 +15607,7 @@
 		(dnp no)
 		(uuid "626efc17-b4e3-4fcf-a9bb-e096d44e48fb")
 		(property "Reference" "R6"
-			(at 210.185 68.58 0)
+			(at 212.09 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15544,7 +15616,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 212.09 68.58 0)
+			(at 212.09 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15553,7 +15625,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 210.82 69.088 90)
+			(at 210.82 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15562,7 +15634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 67.31 0)
+			(at 210.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15571,7 +15643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 67.31 0)
+			(at 210.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16033,7 +16105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 227.33 28.956 0)
 			(effects
 				(font
