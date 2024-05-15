@@ -15008,7 +15008,7 @@
 		)
 	)
 	(gr_text "+3V3_S5"
-		(at 134.5 126.1 0)
+		(at 134.4 126.1 0)
 		(layer "B.SilkS")
 		(uuid "2a534fb2-edeb-4a41-ba3b-c9d6cc12014b")
 		(effects
@@ -15032,7 +15032,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 134.4 122.4 0)
+		(at 134.3 122.4 0)
 		(layer "B.SilkS")
 		(uuid "3f11ee3b-e4e0-4fda-9baa-8ff7f406c14b")
 		(effects
@@ -15069,7 +15069,7 @@
 		)
 	)
 	(gr_text "Compatible with Tiny5:\nLenovo ThinkCentre M720q, M920q, M920x Tiny\nLenovo ThinkStation P330 Tiny\nNEC Mate MC-3, MC-4, MC-5"
-		(at 126.55 126.3 0)
+		(at 126.3 126.3 0)
 		(layer "B.SilkS")
 		(uuid "904d9b28-19ec-449b-a3b5-6a890e7ef325")
 		(effects
@@ -15105,7 +15105,7 @@
 		)
 	)
 	(gr_text "+3V3"
-		(at 138.9 126.125 0)
+		(at 138.8 126.125 0)
 		(layer "B.SilkS")
 		(uuid "b1e81c56-5ba7-413d-a44f-45343d63ccdd")
 		(effects
@@ -15204,7 +15204,7 @@
 		)
 	)
 	(gr_text "+12V"
-		(at 138.9 122.4 0)
+		(at 138.8 122.4 0)
 		(layer "B.SilkS")
 		(uuid "e68ff5ff-ab81-4311-8750-adaaf75f82ec")
 		(effects
