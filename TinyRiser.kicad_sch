@@ -11845,7 +11845,7 @@
 		)
 		(uuid b12a56d4-5510-41a5-8fcb-7a05eac1d8c8)
 	)
-	(text_box "v2 TODO\n[x] Make a bit taller\n[x] Reduce edge connector tolerance\n[x] Add ssd bracket mount point\n[x] Add mount screwpost\n[x] Put jumpers on the PRSNT 0R footprints\n[x] Add SSD activity LED (meh)\n[x] Reorganize testpoints\n[x] Change version text to handwritten\n[x] Make 3.3V trace to m.2 slot wider\n[x] Add 12V testpoint\n[x] Make voltage testpoints bigger and holes\n[x] Remove Tony silkscreen, :sob:, add birb and stars\n[x] Add silkscreen listing compatibility and slot spec\n[ ] Add fan header\n[ ] Increase gap between edge connector pads"
+	(text_box "v2 TODO\n[x] Make a bit taller\n[x] Reduce edge connector tolerance\n[x] Add ssd bracket mount point\n[x] Add mount screwpost\n[x] Put jumpers on the PRSNT 0R footprints\n[x] Add SSD activity LED (meh)\n[x] Reorganize testpoints\n[x] Change version text to handwritten\n[x] Make 3.3V trace to m.2 slot wider\n[x] Add 12V testpoint\n[x] Make voltage testpoints bigger and holes\n[x] Remove Tony silkscreen, :sob:, add birb and stars\n[x] Add silkscreen listing compatibility and slot spec\n[x] Add fan header\n[x] Increase gap between edge connector pads"
 		(exclude_from_sim no)
 		(at 328.93 121.92 0)
 		(size 57.15 34.29)
