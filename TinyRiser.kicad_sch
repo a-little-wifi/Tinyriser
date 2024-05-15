@@ -8158,12 +8158,6 @@
 		(uuid "6528725a-d0ca-4097-8893-92f1972e7d11")
 	)
 	(junction
-		(at 203.2 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69a267f3-9891-4f97-8d0d-f66ae2790240")
-	)
-	(junction
 		(at 130.81 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8240,6 +8234,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9591fe1d-15e0-42ec-a964-b0b239d901ba")
+	)
+	(junction
+		(at 203.2 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c4d8847-7d4d-49e6-bacd-e910174e27c9")
 	)
 	(junction
 		(at 238.76 176.53)
@@ -10035,6 +10035,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 57.15) (xy 204.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797fa723-cd18-42e7-81ea-577d221b7b6e")
+	)
+	(wire
+		(pts
 			(xy 213.36 223.52) (xy 213.36 228.6)
 		)
 		(stroke
@@ -10065,7 +10075,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 52.07) (xy 204.47 52.07)
+			(xy 201.93 52.07) (xy 204.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -11045,16 +11055,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 203.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fcf512-2136-43f9-9131-9984fa4b9f6a")
-	)
-	(wire
-		(pts
 			(xy 246.38 176.53) (xy 251.46 176.53)
 		)
 		(stroke
@@ -11215,6 +11215,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 63.5) (xy 203.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22a21d0-38f3-4544-837a-8dad47155245")
+	)
+	(wire
+		(pts
 			(xy 107.95 102.87) (xy 113.03 102.87)
 		)
 		(stroke
@@ -11305,7 +11315,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 57.15) (xy 204.47 57.15)
+			(xy 201.93 57.15) (xy 203.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -11622,16 +11632,6 @@
 			(type default)
 		)
 		(uuid "f13c1fdb-4caa-42b7-8bcf-73aa9e20affb")
-	)
-	(wire
-		(pts
-			(xy 203.2 63.5) (xy 203.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1fed735-2928-4726-8351-15f121e5fbff")
 	)
 	(wire
 		(pts
@@ -12141,7 +12141,7 @@
 	)
 	(global_label "+12V_fan"
 		(shape input)
-		(at 201.93 52.07 180)
+		(at 201.93 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12151,7 +12151,7 @@
 		)
 		(uuid "175d9810-6ae5-49c3-91ce-1ad43e113142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.8735 52.07 0)
+			(at 189.8735 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13065,7 +13065,7 @@
 	)
 	(global_label "PWM_fan"
 		(shape input)
-		(at 201.93 57.15 180)
+		(at 201.93 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13075,7 +13075,7 @@
 		)
 		(uuid "6c919825-e8e7-46e9-a16f-b8aea24f8150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7807 57.15 0)
+			(at 190.7807 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15053,7 +15053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a5619da-43e4-437a-9dc3-9491c72df62b")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 292.1 65.405 0)
 			(effects
 				(font
@@ -15107,7 +15107,7 @@
 		(instances
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15192,7 +15192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3735fdb4-af11-430d-8844-cbe0958df947")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 287.02 65.405 0)
 			(effects
 				(font
@@ -15246,7 +15246,7 @@
 		(instances
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15606,7 +15606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "626efc17-b4e3-4fcf-a9bb-e096d44e48fb")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 212.09 61.468 90)
 			(effects
 				(font
@@ -15624,7 +15624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 210.82 65.278 90)
 			(effects
 				(font
@@ -15660,7 +15660,7 @@
 		(instances
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15877,7 +15877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ae85148-41b1-4ba4-97a7-d8eba6c10a4c")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 289.56 65.405 0)
 			(effects
 				(font
@@ -15931,7 +15931,7 @@
 		(instances
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -17055,7 +17055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c27bd1f0-52b0-46c2-923c-7ed911f1ef5f")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 294.64 65.405 0)
 			(effects
 				(font
@@ -17109,7 +17109,7 @@
 		(instances
 			(project "TinyRiser"
 				(path "/881240ea-c4b5-4af2-848a-893b6d69814c"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
