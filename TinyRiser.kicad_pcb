@@ -9499,7 +9499,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at -2.6 0 360)
+			(at -2.6 0 0)
 			(layer "B.SilkS")
 			(uuid "33f9a9a9-01b8-4b62-9eb3-4f515f812808")
 			(effects
@@ -9511,7 +9511,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "ee076533-2280-4601-8aa9-e1b6594a4e14")
 			(effects
@@ -9667,7 +9667,7 @@
 			(uuid "6d566a68-16d5-48aa-b241-928fb4b5c817")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "bddfa900-86d2-4430-8815-5d21627d5a79")
 			(effects
@@ -14614,8 +14614,38 @@
 		(uuid "fc2e2bb4-2404-4d5d-aafb-63a3216c7a61")
 	)
 	(gr_line
-		(start 138.6 119.8)
-		(end 138.6 129)
+		(start 138.6 128.2)
+		(end 138.6 128.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b4f8ee3-df54-4c32-a3f1-429a47f9a4bc")
+	)
+	(gr_line
+		(start 140.2 128.2)
+		(end 138.6 128.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1db16fbf-2574-458b-be8d-cfc1593a8d00")
+	)
+	(gr_line
+		(start 138.6 123.2)
+		(end 140.2 123.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2be7e202-1e64-4bf7-985d-1ae96090f575")
+	)
+	(gr_line
+		(start 138.6 120.2)
+		(end 138.600001 128.599999)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -14625,7 +14655,7 @@
 	)
 	(gr_line
 		(start 143.7 119.8)
-		(end 138.6 119.8)
+		(end 139 119.8)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -14634,14 +14664,44 @@
 		(uuid "3364ae28-af0b-4c9f-978e-4424cbbd54aa")
 	)
 	(gr_line
+		(start 140.2 123.1)
+		(end 138.6 123.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4255a203-e773-44ad-affe-07f18e5afd4d")
+	)
+	(gr_line
+		(start 138.6 128.1)
+		(end 140.3 128.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4df7b07d-cde0-4f85-aadc-2cd0bfb2221c")
+	)
+	(gr_line
 		(start 143.7 129)
-		(end 138.6 129)
+		(end 138.999999 128.999999)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "5109c628-8914-411d-8f59-195176fa7a0d")
+	)
+	(gr_line
+		(start 138.6 123.1)
+		(end 138.6 123.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b07e4d0-7cc6-4b4b-a883-19bacdce1bb3")
 	)
 	(gr_rect
 		(start 140.2 123.1)
@@ -14653,6 +14713,28 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "63199687-766b-424a-bb15-8cf9c470b63b")
+	)
+	(gr_arc
+		(start 138.999999 128.999999)
+		(mid 138.717157 128.882841)
+		(end 138.600001 128.599999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8c022f7-a851-4292-bf8b-adfec61997d1")
+	)
+	(gr_arc
+		(start 138.6 120.2)
+		(mid 138.717157 119.917157)
+		(end 139 119.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1f95d51-a39b-4bbd-bcd6-9c88abafbc9e")
 	)
 	(gr_arc
 		(start 63.75 142.25)
@@ -15297,12 +15379,12 @@
 		)
 	)
 	(gr_text "notch"
-		(at 138.7 122.84 270)
+		(at 138.7 123 270)
 		(layer "F.SilkS" knockout)
 		(uuid "651b44ab-ce39-4eba-a59b-94bd3a892f7d")
 		(effects
 			(font
-				(size 1.3 1.3)
+				(size 1.2 1.2)
 				(thickness 0.1875)
 			)
 			(justify left bottom)
