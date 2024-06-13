@@ -14,6 +14,13 @@ I've successfully tested v1 of this riser on my own M720q where it works 100% pe
 
 Note that the M.2 slot only supports PCIe NVMe M-key or B+M-key drives, not SATA ones.
 
+The v2 design includes a fan header that can be used in multiple ways:
+
+- 12V no PWM
+- 12V with PWM
+- Voltage controlled speed
+
+The last 2 modes require some kind of fan controller module plugged into the provided header. This has not been designed yet, but the possibility exists.
 
 <img src='Tinyriser-v2-front.png' width=80%/>
 
