@@ -40,5 +40,5 @@ Currently in version 2, design completed before I started using git
 screwpost: https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html  
 alternative right-angle m-key slot (different footprint): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
 
-https://github.com/a-little-wifi/Tinyriser/assets/139929586/086969f3-38e6-4d3a-b0c4-e65df9add474
-
+https://github.com/a-little-wifi/Tinyriser/assets/139929586/086969f3-38e6-4d3a-b0c4-e65df9add474  
+> unmute it
