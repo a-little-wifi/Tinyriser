@@ -31,6 +31,13 @@ The last 2 modes require some kind of fan controller module plugged into the pro
 > Back side render of the PCB.
 
 
+<img src='Tinyriser-v2-front-irl.jpg' width=80%/>
+
+> Front of it but in real life
+
+<img src='Tinyriser-v2-back-irl.jpg' width=80%/>
+
+> Back of it but also in real life
 
 Compatible with M720q, M920q, M920x and P330 Tiny, as well as the NEC rebranded versions of those.  
 **Don't stick it in an M910x or P320 Tiny, it will physically fit but the pinout is not compatible.**
