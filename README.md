@@ -44,6 +44,8 @@ Compatible with M720q, M920q, M920x and P330 Tiny, as well as the NEC rebranded 
 
 Currently in version 2, design completed before I started using git
 
+Vertical M-key slot model used on this riser: Lotes APCI0110-P001A (available on aliexpress)
+
 screwpost: https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html  
 alternative right-angle m-key slot (different footprint): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
 
