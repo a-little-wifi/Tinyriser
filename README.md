@@ -10,7 +10,7 @@ Using this riser, you can install a low profile PCIe card just as you can with t
 
 Doesn't require any modifications to the motherboard, just works plug and play (no bifurcation/lane reversal).
 
-I've successfully tested v1 of this riser on my own M720q where it works 100% perfectly with x1, x4, x8 and x16 cards, and it will work just as well on the other machines that share this motherboard, the M920q, M920x and P330 Tiny.
+I've successfully tested this riser on my own M720q where it works 100% perfectly with x1, x4, x8 and x16 cards, and it will work just as well on the other machines that share this motherboard, the M920q, M920x and P330 Tiny.
 
 Note that the M.2 slot only supports PCIe NVMe M-key or B+M-key drives, not SATA ones.
 
