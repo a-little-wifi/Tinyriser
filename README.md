@@ -49,5 +49,12 @@ Vertical M-key slot model used on this riser: Lotes APCI0110-P001A (available on
 screwpost: https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html  
 alternative right-angle m-key slot (different footprint): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
 
+## JLC PCB ordering details:
+
+<img src='pcb_order_details.png' width=80%/>
+
+> Sreenshot of the JLC PCB order settings used for TinyRiser
+
+
 https://github.com/a-little-wifi/Tinyriser/assets/139929586/086969f3-38e6-4d3a-b0c4-e65df9add474  
 > unmute it
