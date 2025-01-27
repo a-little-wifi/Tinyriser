@@ -51,6 +51,8 @@ alternative right-angle m-key slot (different footprint): https://www.digikey.co
 
 ## JLC PCB ordering details:
 
+Please use the files from the v2 release, the main repo might be in the middle of version changes
+
 <img src='pcb_order_details.png' width=80%/>
 
 > Sreenshot of the JLC PCB order settings used for TinyRiser
