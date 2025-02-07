@@ -42,12 +42,17 @@ The last 2 modes require some kind of fan controller module plugged into the pro
 Compatible with M720q, M920q, M920x and P330 Tiny, as well as the NEC rebranded versions of those.  
 **Don't stick it in an M910x or P320 Tiny, it will physically fit but the pinout is not compatible.**
 
-Currently in version 2, design completed before I started using git
+Currently in version 2.1, design completed before I started using git
 
-Vertical M-key slot model used on this riser: Lotes APCI0110-P001A (available on aliexpress)
 
-screwpost: https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html  
-alternative right-angle m-key slot (different footprint): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
+## Parts list:
+| part                | model                | link                                                                                     |
+|---------------------|----------------------|------------------------------------------------------------------------------------------|
+| PCIe slot           | UMAX 3183-10203P1T   | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html |
+| Vertical M-key slot | Lotes APCI0110-P001A | (available on aliexpress)                                                                |
+| Screwpost           | YIYUAN SMTSOM340BTR  | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html         |
+
+Alternative M-key slot (different footprint): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
 
 ## JLC PCB ordering details:
 
