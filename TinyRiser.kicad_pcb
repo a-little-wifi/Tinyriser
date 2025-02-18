@@ -12254,6 +12254,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -12267,6 +12268,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -12280,6 +12282,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -12798,34 +12801,14 @@
 		(sheetfile "TinyRiser.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.66 0.735)
-			(end -1.66 -0.735)
+			(start -1.57 0.44)
+			(end -1.57 -0.44)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
 			(uuid "6218ef9a-6d73-4565-b961-44939ea2561d")
-		)
-		(fp_line
-			(start 0.8 0.735)
-			(end -1.66 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dff3998c-8acd-474e-b925-89d762386d03")
-		)
-		(fp_line
-			(start -1.66 -0.735)
-			(end 0.8 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "be446f78-dcd4-4e19-8219-2e1aad9da84f")
 		)
 		(fp_line
 			(start -1.65 0.73)
@@ -14132,6 +14115,16 @@
 		(uuid "2d29fab8-4b75-4500-a0b0-68fc40af5245")
 	)
 	(gr_line
+		(start 39.75 141.3)
+		(end 40.15 141.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "31fbc4db-44d8-498b-98fa-aa36643f2d6e")
+	)
+	(gr_line
 		(start 39.55 139.3)
 		(end 39.55 138.05)
 		(stroke
@@ -14163,6 +14156,16 @@
 		(uuid "4ae7fee0-3e78-4a28-a4ce-ba197b3c37b1")
 	)
 	(gr_line
+		(start 39.75 141.3)
+		(end 40.05 141.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "4be74e37-e08d-4acd-813f-d5d0db7e7793")
+	)
+	(gr_line
 		(start 60.25 137.680546)
 		(end 60.719454 137.680546)
 		(stroke
@@ -14171,6 +14174,16 @@
 		)
 		(layer "B.SilkS")
 		(uuid "4fd957cb-44dc-47f8-8003-60da20515587")
+	)
+	(gr_line
+		(start 40.15 141.3)
+		(end 39.95 141)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "56609bb5-bcad-4823-82a8-960846944ad9")
 	)
 	(gr_arc
 		(start 60.994454 137.375)
@@ -14182,6 +14195,16 @@
 		)
 		(layer "B.SilkS")
 		(uuid "60399017-b612-408b-8b49-04e9bfff8a4f")
+	)
+	(gr_line
+		(start 39.95 141)
+		(end 39.75 141.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8c3ba710-c7eb-4b4a-9fd4-69854e4d70c1")
 	)
 	(gr_line
 		(start 141.2 120.5)
