@@ -572,7 +572,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../gerber/tinyriser-unfinished-test/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
