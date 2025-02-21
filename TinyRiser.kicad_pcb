@@ -12273,6 +12273,7 @@
 		(property "Reference" "JP1"
 			(at -0.025 1.450001 360)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "95dab242-de24-4859-a06a-e46f391021b7")
 			(effects
 				(font
@@ -14217,6 +14218,16 @@
 		(uuid "4fd957cb-44dc-47f8-8003-60da20515587")
 	)
 	(gr_line
+		(start 151.35 129.2)
+		(end 151.35 130.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "54ddcb65-c388-475a-b916-21a06d80d2e4")
+	)
+	(gr_line
 		(start 40.15 141.3)
 		(end 39.95 141)
 		(stroke
@@ -14266,6 +14277,16 @@
 		)
 		(layer "B.SilkS")
 		(uuid "9b46a72d-1e30-4944-9324-fc19a4b6dbda")
+	)
+	(gr_line
+		(start 148.5 129.2)
+		(end 148.5 130.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "9c286b91-e70a-472b-8846-a7128f979a7b")
 	)
 	(gr_line
 		(start 138.8 122.2)
@@ -14348,8 +14369,8 @@
 		(uuid "f03550e7-bc0a-4aa6-9909-0f4cffd1dbf0")
 	)
 	(gr_line
-		(start 147.95 129.9)
-		(end 148.4 129.9)
+		(start 147.65 129.9)
+		(end 148.1 129.9)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -14951,8 +14972,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Fan 12V bypass"
-		(at 147.75 130.3 0)
+	(gr_text "Fan 12V jumper"
+		(at 147.5 130.3 0)
 		(layer "B.SilkS")
 		(uuid "b31e2442-fed1-4a2a-a9d9-04c28f04ac8f")
 		(effects
