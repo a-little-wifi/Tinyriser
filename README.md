@@ -42,7 +42,7 @@ The last 2 modes require some kind of fan controller module plugged into the pro
 Compatible with M720q, M920q, M920x and P330 Tiny, as well as the NEC rebranded versions of those.  
 **Don't stick it in an M910x or P320 Tiny, it will physically fit but the pinout is not compatible.**
 
-Currently in version 2.1, design completed before I started using git
+Currently in version 2.1
 
 
 ## Parts list:
@@ -60,7 +60,7 @@ Please use the files from the v2 release, the main repo might be in the middle o
 
 <img src='pcb_order_details.png' width=80%/>
 
-> Sreenshot of the JLC PCB order settings used for TinyRiser
+> Screenshot of the JLC PCB order settings used for TinyRiser
 
 
 https://github.com/a-little-wifi/Tinyriser/assets/139929586/086969f3-38e6-4d3a-b0c4-e65df9add474  
