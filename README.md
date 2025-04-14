@@ -52,7 +52,7 @@ Currently in version 2.1
 | Vertical M-key slot | Lotes APCI0110-P001A | (available on aliexpress)                                                                |
 | Screwpost           | YIYUAN SMTSOM340BTR  | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html         |
 
-Alternative M-key slot (different footprint): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
+Alternative M-key slot (different footprint, does not fit on provided pcb files without changing it): https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT350M01001VT/10232903
 
 ## JLC PCB ordering details:
 
