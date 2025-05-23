@@ -63,3 +63,6 @@ Please use the files from the v2 release, the main repo might be in the middle o
 
 https://github.com/a-little-wifi/Tinyriser/assets/139929586/086969f3-38e6-4d3a-b0c4-e65df9add474  
 > unmute it
+
+# Attribution
+If you distribute this design or use this design to create a derivative design, you must keep attribution to this original design, in addition to following the terms in the license
