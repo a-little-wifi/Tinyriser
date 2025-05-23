@@ -15365,6 +15365,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "For documentation visit:\ngithub.com/a-little-wifi/Tinyriser"
+		(at 84.5 130.1 0)
+		(layer "B.SilkS")
+		(uuid "b734ac51-9fe7-4fc0-b1aa-90c9d50663b6")
+		(effects
+			(font
+				(size 0.66 0.66)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "GND"
 		(at 142.35 123.7 0)
 		(layer "B.SilkS")

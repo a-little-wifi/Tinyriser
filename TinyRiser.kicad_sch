@@ -69,6 +69,15 @@
 						(type background)
 					)
 				)
+				(text "by WifiCable"
+					(at 9.144 14.478 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 255 255 194 1)
+						)
+					)
+				)
 				(text "For Tiny5:\nM720q, M920q, M920x\nand P330 Tiny"
 					(at 0 13.97 900)
 					(effects
@@ -12133,6 +12142,17 @@
 			(justify left bottom)
 		)
 		(uuid "0c12e977-c071-44b3-8e26-5eec9760f4ea")
+	)
+	(text "Note: CLKREQ# needs to be connected to GND to activate the clock signal.\nIf you're replacing the PCIe slot with an open-ended one,\nmake sure to account for longer cards where the presence pin is outside the slot.\nMaybe just hard-wire CLKREQ# to GND"
+		(exclude_from_sim no)
+		(at 237.744 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1ff79e4-98e2-43c5-9612-6aec46068b31")
 	)
 	(global_label "PCIe_PCH_Rx1-"
 		(shape input)
