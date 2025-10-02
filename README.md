@@ -54,7 +54,7 @@ Currently in version 2.1
 
 ## JLC PCB ordering details:
 
-Please use the files from the v2 release, the main repo might be in the middle of version changes
+Please use the files from the v2.1 release, the main repo might be in the middle of version changes
 
 <img src='pcb_order_details.png' width=80%/>
 
