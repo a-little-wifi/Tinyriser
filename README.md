@@ -46,11 +46,12 @@ Currently in version 2.1
 
 
 ## Parts list:
-| part                | model                | link                                                                                     |
-|---------------------|----------------------|------------------------------------------------------------------------------------------|
-| PCIe slot           | UMAX 3183-10203P1T   | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html |
-| Vertical M-key slot | Lotes APCI0110-P001A | (available on aliexpress)                                                                |
-| Screwpost           | YIYUAN SMTSOM340BTR  | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html         |
+| part                    | model                     | link                                                                                     |
+|-------------------------|---------------------------|------------------------------------------------------------------------------------------|
+| PCIe slot               | UMAX 3183-10203P1T        | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html |
+| Vertical M-key slot     | HOAUC HYCW19M-05NGFF-530B | https://www.lcsc.com/product-detail/C41430861.html                                       |
+| Alt Vertical M-key slot | Lotes APCI0110-P001A      | (available on aliexpress)                                                                |
+| Screwpost               | YIYUAN SMTSOM340BTR       | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html         |
 
 ## JLC PCB ordering details:
 
