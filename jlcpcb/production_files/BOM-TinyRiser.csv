@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC,Quantity
+Bus_M.2_Socket_M,J3,M.2_NGFF_KeyM_H5.3_Vertical,C41430861,1
+Bus_PCI_Express_x16,J2,PCIe_x16_tht,C404116,1
+MountingHole_Pad,H1,MountingHole_4.3mm_M4_ISO7380_Pad_TopOnly,C5301786,1
+100nF,C2,C_0603_1608Metric,,1
+10uF,C1,C_0603_1608Metric,,1
+10uF,C3,C_0603_1608Metric,,1
+5K1,R1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,1
+LED,D1,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,1

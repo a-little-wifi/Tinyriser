@@ -1,0 +1,9 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10uF,C_0603_1608Metric,57.45,-131.55,0.0,top
+C2,100nF,C_0603_1608Metric,57.45,-133.1,0.0,top
+C3,10uF,C_0603_1608Metric,62.7,-139.95,90.0,top
+D1,LED,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,39.95,-141.1625,270.0,bottom
+H1,MountingHole_Pad,MountingHole_4.3mm_M4_ISO7380_Pad_TopOnly,78.5,-123.8,0.0,bottom
+J2,Bus_PCI_Express_x16,PCIe_x16_tht,105.7125,-134.5,180.0,top
+J3,Bus_M.2_Socket_M,M.2_NGFF_KeyM_H5.3_Vertical,50.875,-138.75,0.0,top
+R1,5K1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,41.45,-141.1625,90.0,bottom
