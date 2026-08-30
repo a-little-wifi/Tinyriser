@@ -46,12 +46,17 @@ Currently in version 2.1
 
 
 ## Parts list:
-| part                    | model                     | link                                                                                     |
-|-------------------------|---------------------------|------------------------------------------------------------------------------------------|
-| PCIe slot               | UMAX 3183-10203P1T        | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html |
-| Vertical M-key slot     | HOAUC HYCW19M-05NGFF-530B | https://www.lcsc.com/product-detail/C41430861.html                                       |
-| Alt Vertical M-key slot | Lotes APCI0110-P001A      | (available on aliexpress)                                                                |
-| Screwpost               | YIYUAN SMTSOM340BTR       | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html         |
+| part                    | Qty | model                     | link                                                                                     |
+|-------------------------|-----|---------------------------|------------------------------------------------------------------------------------------|
+| PCIe slot               | 1   | UMAX 3183-10203P1T        | https://www.lcsc.com/product-detail/Card-Edge-Connectors_UMAX-3183-10203P1T_C404116.html |
+| Vertical M-key slot     | 1   | HOAUC HYCW19M-05NGFF-530B | https://www.lcsc.com/product-detail/C41430861.html                                       |
+| Alt Vertical M-key slot | 0   | Lotes APCI0110-P001A      | (available on aliexpress)                                                                |
+| Screwpost               | 1   | YIYUAN SMTSOM340BTR       | https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM340BTR_C5301786.html         |
+| 10uF 0603 capacitor     | 2   |                           |                                                                                          |
+| 100nF 0603 capacitor    | 1   |                           |                                                                                          |
+| 4-pin right angle header| 1   |                           |                                                                                          |
+| 5.1kΩ 0603 resistor     | 1   |                           |                                                                                          |
+| 0603 LED (pick a color) | 1   |                           |                                                                                          |
 
 ## JLC PCB ordering details:
 
